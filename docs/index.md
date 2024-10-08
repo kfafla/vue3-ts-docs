@@ -9,13 +9,13 @@ hero:
   image:
     src: /assets/logo.png
     alt: 图片
-actions:
-  - theme: brand
-    text: 快速开始
-    link: /guide/
-  - theme: alt
-    text: 常见问题
-    link: /faq/
+  actions:
+    - theme: brand
+      text: 快速开始
+      link: /guide/
+    - theme: alt
+      text: 常见问题
+      link: /faq/
 
 features:
   - icon: 🔅
