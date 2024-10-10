@@ -10,7 +10,7 @@ export default defineConfig({
         nav: [
             { text: "首页", link: "/" },
             { text: "指南", link: "/guide/" },
-            { text: "组件", link: "/components/" },
+            { text: "VueUse", link: "/components/" },
             { text: "API 参考", link: "/api/"},
             { text: "常见问题", link: "/faq/"},
         ],
@@ -23,19 +23,23 @@ export default defineConfig({
                     text: "开始",
                     collapsible: true,
                     items: [
-                        { text: "介绍", link: "/guide/concepts" }, 
-                        { text: "项目实战练习",link:"/guide/lima"}                       
+                        { text: "第一周", link: "" }, 
+                        { text: "第二周", link: "" }, 
+                        { text: "第三周", link: "" }, 
+                        { text: "第四周", link: "/guide/concepts" }, 
+                        { text: "第五周",link:""}                       
                     ],
                 },
             ],
             "/components/": [
                 {
-                    text: "常用组件",
+                    text: "VueUse",
                     items: [
                         { text: "介绍", link:"/components/"},
-                        { text: "按钮 Button",link:"/components/button"},
-                        { text: "表单 Form",link:"/components/form"},
-                        { text: "表格 Table",link:"/components/table"},
+                        { text: "useActionElement",link:"/components/useActionElement"},
+                        { text: "useClipboard",link:"/components/useClipboard"},
+                        { text: "usePonterLock",link:"/components/usePonterLock"},
+                        { text: "使用循环列表",link:"/components/list"},
                     ],
                 },
             ],
